@@ -1,0 +1,70 @@
+EUKEKA TECH ZM WEBSITE SETUP INSTRUCTIONS
+
+1. FOLDER STRUCTURE:
+   - Create a main folder called "eureka-tech-zm"
+   - Inside, create these subfolders: css, js, images
+   - Place the HTML files (index.html, about.html, contact.html) in the main folder
+   - Place style.css in the css folder
+   - Place script.js in the js folder
+
+2. IMAGES NEEDED:
+   In the images folder, add these images (replace placeholders):
+   - hero1.jpg, hero2.jpg, hero3.jpg (hero slider images)
+   - about-img.jpg (about page image)
+   - logo.png (optional logo file)
+
+   Recommended image dimensions:
+   - Hero images: 1920x1080px or similar aspect ratio
+   - About image: 800x600px or similar
+   - Logo: 200x100px (transparent background recommended)
+
+3. HOW TO CUSTOMIZE:
+   - Change colors: Edit CSS variables in the :root selector in style.css
+   - Update contact info: Edit phone numbers in all HTML files
+   - Change services: Edit text in "What We Do" section in index.html
+   - Update company info: Edit text in about.html
+
+4. TEST THE WEBSITE:
+   - Open index.html in a web browser
+   - Test navigation between pages
+   - Test the contact form (shows alert)
+   - Test the WhatsApp link
+   - Test the image slider on home page
+
+5. DEPLOYMENT:
+   - Upload all files and folders to your web hosting
+   - Ensure the folder structure is maintained
+   - Test the live website on different devices
+
+6. ADDITIONAL CUSTOMIZATION:
+   - To add your actual logo, replace the logo text in all HTML files
+   - To change colors, modify the CSS variables in style.css
+   - To add more pages, copy the structure of existing pages
+
+For any questions or issues, refer to the code comments or contact your developer.
+images/
+├── hero1.jpg
+├── hero2.jpg
+├── hero3.jpg
+├── about-img.jpg
+└── gallery/
+    ├── installation1.jpg
+    ├── installation2.jpg
+    ├── installation3.jpg
+    ├── installation4.jpg
+    ├── installation5.jpg
+    ├── repair1.jpg
+    ├── repair2.jpg
+    ├── repair3.jpg
+    ├── repair4.jpg
+    ├── maintenance1.jpg
+    ├── maintenance2.jpg
+    ├── maintenance3.jpg
+    ├── maintenance4.jpg
+    ├── commercial1.jpg
+    ├── commercial2.jpg
+    ├── commercial3.jpg
+    ├── commercial4.jpg
+    ├── residential1.jpg
+    ├── residential2.jpg
+    └── residential3.jpg
